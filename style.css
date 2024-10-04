@@ -1,0 +1,31 @@
+@charset 'utf-8';
+
+header {
+    text-align: center;
+}
+
+.fv img {
+    width: 50vh;
+}
+
+.em-rem, .vh-vw {
+    text-align: center;
+}
+
+.em-rem .em{
+    font-size: 2em;
+}
+
+.em-rem .rem{
+    font-size: 3rem; /** 3rem = 3倍 **/
+}
+
+.vh {
+    background-color: rgb(248, 152, 152);
+    height: 50vh;
+}
+
+.vw {
+    background-color: rgb(152, 202, 248);
+    width: calc(100% / 3);
+}
